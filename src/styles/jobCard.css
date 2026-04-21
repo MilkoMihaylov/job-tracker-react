@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.applied {
+  color: green;
+}
+
+.status.interview {
+  color: orange;
+}
+
+.status.rejected {
+  color: red;
+}
