@@ -1,16 +1,55 @@
-# React + Vite
+## Job Tracker (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple but well-structured React application for tracking job applications with status management, filtering, and persistent storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Features
 
-## React Compiler
+- Add new job applications
+- Delete jobs
+- Update job status (Applied / Interview / Rejected)
+- Filter jobs by status
+- Persistent data using LocalStorage
+- Fully reactive UI using React state management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Hooks: useState, useEffect)
+- JavaScript (ES6+)
+- LocalStorage API
+- CSS (basic styling)
+
+---
+
+## Architecture Overview
+
+- Single source of truth: `jobs` state
+- Immutable updates using `map`, `filter`, spread operator
+- Derived state: `filteredJobs`
+- Side effects handled via `useEffect`
+- Persistent storage via LocalStorage sync
+
+---
+
+## Key Concepts Practiced
+
+- Controlled components (inputs)
+- State lifting & updates
+- Array transformations (map/filter)
+- Component-based thinking
+- Persistence layer simulation (localStorage)
+
+---
+
+## 📸 Preview
+
+![App Preview](./assets/preview.png)
+
+---
+
+## Author
+
+Built as a learning project to practice React fundamentals and real-world state management patterns.
