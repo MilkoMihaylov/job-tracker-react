@@ -46,7 +46,8 @@ A simple but well-structured React application for tracking job applications wit
 
 ## 📸 Preview
 
-![App Preview](assets/preview.png)
+<img width="843" height="674" alt="job-tracker-main" src="https://github.com/user-attachments/assets/d489f2a9-c4a9-4b02-8fbe-784766291d3d" />
+
 
 ---
 
