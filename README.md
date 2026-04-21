@@ -46,7 +46,7 @@ A simple but well-structured React application for tracking job applications wit
 
 ## 📸 Preview
 
-![App Preview](./assets/preview.png)
+![App Preview](assets/preview.png)
 
 ---
 
